@@ -1,4 +1,4 @@
-# Thin_Obj_Bin_Picking
+# Pickpack
 This is a ROS package presents a perception-to-manipulation system for picking thin objects from clutter. 
 The manipulation consists of four steps: detecting the object of instance, approaching the target overhead, descending till the fingertip contacts the object, tilting to adjust the final grasp pose.
 Object detection is implemented on Mask R-CNN, a deep neural network for instance segmentation, while descending and tilting are implemented with tactile sensors.
