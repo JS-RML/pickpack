@@ -1,7 +1,11 @@
 # Pickpack
-This is a ROS package presents a perception-to-manipulation system for picking thin objects from clutter. 
-The manipulation consists of four steps: detecting the object of instance, approaching the target overhead, descending till the fingertip contacts the object, tilting to adjust the final grasp pose.
-Object detection is implemented on Mask R-CNN, a deep neural network for instance segmentation, while descending and tilting are implemented with tactile sensors.
+
+## 1. Overview
+
+This package presents a complete software pipeline for picking thin,rigid objects . This perception-to-manipulation system for picking is fully autonomous system, incorporating visual perception module for obejct detection and localization with force/torque sensing module for environment perception. The manipulation module is the core component of the system, which is an implementation of **Tilt-and-Pivot** manipulaiton technique: a novel robotic object handling technique for picking thin objects lying on a flat surface through  robotic dexterous, in-handmanipulation. Picking thin objects is an important manipulation capability with a wide range of pratical applications, as can be seen in the videos below.
+
+This ROS package is directly applicable to an ordinary robotic setting featuring the conventional two- or three-fingered grippers installed on UR10 robot arm.
+
 
 ## Prerequisites
 
