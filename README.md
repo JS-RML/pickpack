@@ -56,3 +56,5 @@ The following instructions will help you build up the software step by step.
 
 ## Author
 Zhekai Tong (ztong@connect.ust.hk) and Tierui He (theae@connect.ust.hk)
+
+Qianyi XU (qxuaj@connect.ust.hk)
