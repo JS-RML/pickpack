@@ -44,6 +44,7 @@ git clone https://github.com/oliviaHKUST/pickpack.git
 cd ..
 catkin_make
 ```
+## 4. Run Tilt-and-Pivot 
 
 ## Maintenance 
 For any technical issues, please contact: Qianyi XU (qxuaj@connect.ust.hk), Zhekai Tong (ztong@connect.ust.hk) and Tierui He (theae@connect.ust.hk)
