@@ -34,7 +34,7 @@ This ROS package is directly applicable to an ordinary robotic setting featuring
 7. [AprilTag ROS package](https://github.com/AprilRobotics/apriltag_ros)
 
 ```.ipynb```
-files can be run in [jupyter notebook](https://jupyter.readthedocs.io/en/latest/install.html). Other requirements please check carefully in Mask R-CNN repository.
+files can be run in [jupyter notebook](https://jupyter.readthedocs.io/en/latest/install.html).
 
 ## 3. Build on ROS
 In your [catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace):
