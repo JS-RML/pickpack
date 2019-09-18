@@ -111,6 +111,18 @@ roslaunch tilt_pivot_collision_check demo.launch
 rosrun tilt_pivot_collision_check tilt_pivot_collision_check.py
 ```
 
+If no collision is involved, the collision checker will visualize the path without any warning.
+
+<p align = "center">
+<img src="files/collision_free.png" width="600"> 
+</p>
+
+If a collision occurs, for example, there is collision between the joint of the robot and ground surface as shown in the figure below, the collision area will be denoted as red color.
+
+<p align = "center">
+<img src="files/collide.png" width="600"> 
+</p>
+
 ### 4.3 Changing execution parameters
 The parameters of the **Tilt-and-Pivot** process can be specified in every ```.ipynb``` file in scripts folder.
 
@@ -125,6 +137,9 @@ The parameters are as follows:
     - ***phi***: Angle between object and ground in tilt phase
     - ***alpha, beta, gamma***: Rotation angles about the contact point in pivot phase
 
+<p align = "center">
+<img src="files/tilt_pivot_illustration.png" width="1000"> 
+</p>
 
 ## Maintenance 
 For any technical issues, please contact: Qianyi XU (qxuaj@connect.ust.hk), Zhekai Tong (ztong@connect.ust.hk) and Tierui He (theae@connect.ust.hk)
