@@ -46,5 +46,27 @@ catkin_make
 ```
 ## 4. Run Tilt-and-Pivot 
 
+
+### 4.3 Changing execution parameters
+The parameters of the **Tilt-and-Pivot** process can be specified in .
+The parameters are as follows:
+
+- **Robot Parameter**
+    - ***tcp_speed***: Robot tool center point (TCP) speed
+- **Gripper Parameter**
+    - ***tcp2fingertip***: Distance from TCP to gripper fingertip
+    - ***finger_thickness***: Thickness of the robot finger
+    - ***gripper_speed***: Gripper actuation speed between 0.013 and 0.100
+    - ***gripper_force***: Gripper force between 0 and 100 (%)
+- **Object Dimension**
+    - ***object_thickness***: object thickness in meters
+    - ***object_length***: object length in meters
+- **SDI configuration**:
+    - ***theta_0***: Angle between object and hole prior to regrasping
+    - ***delta_0***: Distance from fingertip to object tip within gripper in meters
+    - ***psi_regrasp***: Angle between object and upper finger after regrasping
+    - ***theta_tilt***: Angle to tilt after regrasping
+    - ***axis***: Axis and direction to rotate about using right-hand rule
+
 ## Maintenance 
 For any technical issues, please contact: Qianyi XU (qxuaj@connect.ust.hk), Zhekai Tong (ztong@connect.ust.hk) and Tierui He (theae@connect.ust.hk)
