@@ -36,36 +36,14 @@ This ROS package is directly applicable to an ordinary robotic setting featuring
 ```.ipynb```
 files can be run in [jupyter notebook](https://jupyter.readthedocs.io/en/latest/install.html). Other requirements please check carefully in Mask R-CNN repository.
 
-## Get started
-The following instructions will help you build up the software step by step.
-
-1. Follow the tutorial in [Universal Robot package for ROS Kinetic](http://wiki.ros.org/universal_robot) and [Robotiq ROS package](http://wiki.ros.org/robotiq/) to set up hardware properly.
-2. Run Realsense SR300 camera in ROS. See [link](http://wiki.ros.org/RealSense).
-3. Connect Arduino and tactile sensor, output the sensor readings in ROS. See [link](http://wiki.ros.org/rosserial_arduino/Tutorials).
-4. Setup frames:
-   ```
-   cd scripts
-   ```
-   ```
-   python frame_transform.py 
-   ```
-5. Open a terminal, run object detection:
-   ```
-   cd samples
-   ```
-   ```
-   jupyter notebook
-   ```
-   Open ```instance_segmentation.ipynb```. For loading ```BLISTER_MODEL_PATH```, please refer to [here](https://hkustconnect-my.sharepoint.com/:u:/g/personal/ztong_connect_ust_hk/EQ_7Mi8_-pBCrZwDXYc21QIBEgfSpwU2K-eZ1M3d01JVcQ?e=dr3e5G).
-   
-6. Open another terminal, run manipulation:
-   ```
-   cd scripts
-   ```
-   ```
-   jupyter notebook
-   ```
-   Open ```thin_object_bin_pick_mani.ipynb```
+## 3. Build on ROS
+In your [catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace):
+```
+cd ~/catkin_ws/src
+git clone https://github.com/oliviaHKUST/pickpack.git
+cd ..
+catkin_make
+```
 
 ## Maintenance 
 For any technical issues, please contact: Qianyi XU (qxuaj@connect.ust.hk), Zhekai Tong (ztong@connect.ust.hk) and Tierui He (theae@connect.ust.hk)
