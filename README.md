@@ -46,27 +46,85 @@ catkin_make
 ```
 ## 4. Run Tilt-and-Pivot 
 
+### 4.1 Run with real robot
+1. Picking acrylic board script:
+   ```
+   cd ~/catkin_ws/src/pickpack/scripts
+   ```
+   ```
+   jupyter notebook 
+   ```
+   Open ```picking_acrylic_board.ipynb ```
+
+   Note: In multiple boards bin picking scenario, run ```~/catkin_ws/src/pickpack/Mask_RCNN/scripts/board_detection.ipynb``` first.
+
+2. Picking carton board script:
+   ```
+   cd ~/catkin_ws/src/pickpack/scripts
+   ```
+   ```
+   jupyter notebook 
+   ```
+   Open ```picking_carton.ipynb ```
+
+   Note: In multiple carton boards bin picking scenario, run ```~/catkin_ws/src/pickpack/Mask_RCNN/scripts/carton_detection.ipynb``` first.
+
+3. Picking book script:
+   ```
+   cd ~/catkin_ws/src/pickpack/scripts
+   ```
+   ```
+   jupyter notebook 
+   ```
+   Open ```picking_book.ipynb ```
+
+4. Opening container lid script:
+   ```
+   cd ~/catkin_ws/src/pickpack/scripts
+   ```
+   ```
+   jupyter notebook 
+   ```
+   Open ```opening_boxlid.ipynb ```
+
+5. Picking acrylic board script with 3-finger gripper:
+   ```
+   cd ~/catkin_ws/src/pickpack/scripts
+   ```
+   ```
+   jupyter notebook 
+   ```
+   Open ```picking_acrylic_board_with_3finger_gripper.ipynb ```
+
+
+### 4.2 Run collision check with Moveit!
+
+1. Start UR10 Robot-Gripper Scene
+
+```
+roslaunch tilt_pivot_collision_check demo.launch
+```
+
+2. Run collision check script
+
+```
+rosrun tilt_pivot_collision_check tilt_pivot_collision_check.py
+```
 
 ### 4.3 Changing execution parameters
-The parameters of the **Tilt-and-Pivot** process can be specified in .
+The parameters of the **Tilt-and-Pivot** process can be specified in every ```.ipynb``` file in scripts folder.
+
 The parameters are as follows:
 
 - **Robot Parameter**
-    - ***tcp_speed***: Robot tool center point (TCP) speed
-- **Gripper Parameter**
-    - ***tcp2fingertip***: Distance from TCP to gripper fingertip
-    - ***finger_thickness***: Thickness of the robot finger
-    - ***gripper_speed***: Gripper actuation speed between 0.013 and 0.100
-    - ***gripper_force***: Gripper force between 0 and 100 (%)
+    - ***global_speed***: Robot tool center point (TCP) speed
 - **Object Dimension**
-    - ***object_thickness***: object thickness in meters
     - ***object_length***: object length in meters
-- **SDI configuration**:
-    - ***theta_0***: Angle between object and hole prior to regrasping
-    - ***delta_0***: Distance from fingertip to object tip within gripper in meters
-    - ***psi_regrasp***: Angle between object and upper finger after regrasping
-    - ***theta_tilt***: Angle to tilt after regrasping
-    - ***axis***: Axis and direction to rotate about using right-hand rule
+- **Tilt-and-Pivot configuration**:
+    - ***psi***: Angle between ground and effector before tilt phase
+    - ***phi***: Angle between object and ground in tilt phase
+    - ***alpha, beta, gamma***: Rotation angles about the contact point in pivot phase
+
 
 ## Maintenance 
 For any technical issues, please contact: Qianyi XU (qxuaj@connect.ust.hk), Zhekai Tong (ztong@connect.ust.hk) and Tierui He (theae@connect.ust.hk)
