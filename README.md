@@ -25,13 +25,13 @@ This ROS package is directly applicable to an ordinary robotic setting featuring
 4. [**Realsense Camera SR300**](https://www.intelrealsense.com/coded-light/)
 
 ### 2.2 Software
-1. [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/)
-2. [Driver for UR10 robot arms from universal robots](https://github.com/ThomasTimm/ur_modern_driver/)
-3. [Universal Robot package for ROS Kinetic](http://wiki.ros.org/universal_robot)
-4. [MoveIt!](https://moveit.ros.org/)
-5. [Robotiq ROS package](http://wiki.ros.org/robotiq/)
-6. [Mask R-CNN](https://github.com/matterport/Mask_RCNN)
-7. [AprilTag ROS package](https://github.com/AprilRobotics/apriltag_ros)
+1. [**ROS Kinetic**](http://wiki.ros.org/kinetic/Installation/)
+2. [**Driver for UR10 robot arms from universal robots**](https://github.com/ThomasTimm/ur_modern_driver/)
+3. [**Universal Robot package for ROS Kinetic**](http://wiki.ros.org/universal_robot)
+4. [**MoveIt!**](https://moveit.ros.org/)
+5. [**Robotiq ROS package**](http://wiki.ros.org/robotiq/)
+6. [**Mask R-CNN**](https://github.com/matterport/Mask_RCNN)
+7. [**AprilTag ROS package**](https://github.com/AprilRobotics/apriltag_ros)
 
 ```.ipynb```
 files can be run in [jupyter notebook](https://jupyter.readthedocs.io/en/latest/install.html).
