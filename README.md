@@ -6,6 +6,11 @@ This package presents a complete software pipeline for picking thin,rigid object
 
 This ROS package is directly applicable to an ordinary robotic setting featuring the conventional two- or three-fingered grippers installed on UR10 robot arm.
 
+<p align = "center">
+<img src="files/openlid.gif" width="360" height="202"> <img src="files/carton.gif" width="360" height="202"> 
+<img src="files/acrylic_2finger.gif" width="360" height="202"> <img src="files/acrylic_3finger.gif" width="360" height="202">
+</p>
+
 **Video Link:** (https://www.youtube.com/watch?v=idWt6ZrfGDw)
 
 **Authors**: Qianyi XU (qxuaj@connect.ust.hk), [Jungwon Seo](http://junseo.people.ust.hk/)  
@@ -14,10 +19,10 @@ This ROS package is directly applicable to an ordinary robotic setting featuring
 ## 2. Prerequisites
 
 ### 2.1 Hardware
-1. Universal Robot UR10
-2. Robotiq 140mm Adaptive parallel-jaw gripper/
-3. Robotiq Force Torque Sensor
-4. Realsense SR300
+1. [**Universal Robot UR10**](https://www.universal-robots.com/products/ur10-robot/)
+2. [**Robotiq 140mm Adaptive parallel-jaw gripper**](https://robotiq.com/products/2f85-140-adaptive-robot-gripper)
+3. [**Robotiq FT300 Force/Torque Sensor**](https://robotiq.com/products/ft-300-force-torque-sensor) 
+4. [**Realsense Camera SR300**](https://www.intelrealsense.com/coded-light/)
 
 ### 2.2 Software
 1. [ROS Kinetic](http://wiki.ros.org/kinetic/Installation/)
