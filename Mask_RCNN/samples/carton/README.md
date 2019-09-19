@@ -12,10 +12,5 @@ python3 carton.py train --dataset=~/catkin_ws/src/pickpack/Mask_RCNN/datasets/ca
 python3 carton.py train --dataset=~/catkin_ws/src/pickpack/Mask_RCNN/datasets/carton --weights=last
 ```
 
-Train a new model starting from ImageNet weights
-```
-python3 carton.py train --dataset=/path/to/carton/dataset --weights=imagenet
-```
-
 The code in `carton.py` is set to train for 3K steps (30 epochs of 100 steps each), and using a batch size of 2. 
 Update the schedule to fit your needs.

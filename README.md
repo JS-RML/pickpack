@@ -41,14 +41,18 @@ files can be run in [jupyter notebook](https://jupyter.readthedocs.io/en/latest/
 In your [catkin workspace](http://wiki.ros.org/catkin/Tutorials/create_a_workspace):
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/oliviaHKUST/pickpack.git
+git clone https://github.com/HKUST-RML/pickpack.git
 cd ..
 catkin_make
 ```
-## 4. Run Tilt-and-Pivot 
+## 4. Run Tilt-and-Pivot For Objects Picking
 
 ### 4.1 Run with real robot
 1. Picking acrylic board script:
+   
+   Note: In multiple boards bin picking scenario, run ```~/catkin_ws/src/pickpack/Mask_RCNN/scripts/board_detection.ipynb``` first for instance detection and segmentation. Refer to Mask_RCNN/samples folder to train the vision perception module with your dataset.
+
+   For single object picking scenario, run the following code:
    ```
    cd ~/catkin_ws/src/pickpack/scripts
    ```
@@ -57,7 +61,7 @@ catkin_make
    ```
    Open ```picking_acrylic_board.ipynb ```
 
-   Note: In multiple boards bin picking scenario, run ```~/catkin_ws/src/pickpack/Mask_RCNN/scripts/board_detection.ipynb``` first.
+   
 
 2. Picking carton board script:
    ```
@@ -68,7 +72,7 @@ catkin_make
    ```
    Open ```picking_carton.ipynb ```
 
-   Note: In multiple carton boards bin picking scenario, run ```~/catkin_ws/src/pickpack/Mask_RCNN/scripts/carton_detection.ipynb``` first.
+   Note: In multiple carton boards bin picking scenario, run ```~/catkin_ws/src/pickpack/Mask_RCNN/scripts/carton_detection.ipynb``` first for instance detection and segmentation.
 
 3. Picking book script:
    ```
