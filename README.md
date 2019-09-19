@@ -25,6 +25,7 @@ This ROS package is directly applicable to an ordinary robotic setting featuring
 4. [**Realsense Camera SR300**](https://www.intelrealsense.com/coded-light/)
 
 ### 2.2 Software
+Our software is developed in Ubuntu 16.04. ROS Kinetic
 1. [**ROS Kinetic**](http://wiki.ros.org/kinetic/Installation/)
 2. [**Driver for UR10 robot arms from universal robots**](https://github.com/ThomasTimm/ur_modern_driver/)
 3. [**Universal Robot package for ROS Kinetic**](http://wiki.ros.org/universal_robot)
