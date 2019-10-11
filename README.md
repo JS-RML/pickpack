@@ -13,7 +13,7 @@ This ROS package is directly applicable to an ordinary robotic setting featuring
 
 **Video Link:** (https://www.youtube.com/watch?v=idWt6ZrfGDw)
 
-**Authors**: Qianyi XU (qxuaj@connect.ust.hk), [Jungwon Seo](http://junseo.people.ust.hk/)  
+**Authors**: Zhekai Tong (ztong@connect.ust.hk), Tierui He (theae@connect.ust.hk), Qianyi Xu (qxuaj@connect.ust.hk), and [Jungwon Seo](http://junseo.people.ust.hk/)  
 
 
 ## 2. Prerequisites
