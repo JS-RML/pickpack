@@ -11,7 +11,7 @@ This ROS package is directly applicable to an ordinary robotic setting featuring
 <img src="files/acrylic_2finger.gif" width="360" height="202"> <img src="files/acrylic_3finger.gif" width="360" height="202">
 </p>
 
-**Video Link:** (https://www.youtube.com/watch?v=idWt6ZrfGDw)
+<!--**Video Link:** (https://www.youtube.com/watch?v=idWt6ZrfGDw)-->
 
 **Authors**: Zhekai Tong (ztong@connect.ust.hk), Tierui He (theae@connect.ust.hk), Qianyi Xu (qxuaj@connect.ust.hk), and [Jungwon Seo](http://junseo.people.ust.hk/)  
 
@@ -147,4 +147,4 @@ The parameters are as follows:
 </p>
 
 ## Maintenance 
-For any technical issues, please contact: Qianyi XU (qxuaj@connect.ust.hk), Zhekai Tong (ztong@connect.ust.hk) and Tierui He (theae@connect.ust.hk)
+For any technical issues, please contact: Zhekai Tong (ztong@connect.ust.hk), Tierui He (theae@connect.ust.hk) and Qianyi Xu (qxuaj@connect.ust.hk), 
