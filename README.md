@@ -13,7 +13,7 @@ This ROS package is directly applicable to an ordinary robotic setting featuring
 
 <!--**Video Link:** (https://www.youtube.com/watch?v=idWt6ZrfGDw)-->
 
-**Authors**: Zhekai Tong (ztong@connect.ust.hk), Tierui He (theae@connect.ust.hk), Qianyi Xu (qxuaj@connect.ust.hk), and [Jungwon Seo](http://junseo.people.ust.hk/)  
+**Authors**: Zhekai Tong (ztong@connect.ust.hk), Tierui He (theae@connect.ust.hk), Chung Hee Kim (chkimaa@connect.ust.hk), Yu Hin Ng (yhngad@connect.ust.hk), Qianyi Xu (qxuaj@connect.ust.hk), and [Jungwon Seo](http://junseo.people.ust.hk/)  
 
 
 ## 2. Prerequisites
@@ -147,4 +147,4 @@ The parameters are as follows:
 </p>
 
 ## Maintenance 
-For any technical issues, please contact: Zhekai Tong (ztong@connect.ust.hk), Tierui He (theae@connect.ust.hk) and Qianyi Xu (qxuaj@connect.ust.hk), 
+For any technical issues, please contact: Zhekai Tong (ztong@connect.ust.hk), Tierui He (theae@connect.ust.hk), Qianyi Xu (qxuaj@connect.ust.hk) and Yu Hin Ng (yhngad@connect.ust.hk).
