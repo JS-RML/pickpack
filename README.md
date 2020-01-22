@@ -142,9 +142,9 @@ The parameters are as follows:
     - ***phi***: Angle between object and ground in tilt phase
     - ***alpha, beta, gamma***: Rotation angles about the contact point in pivot phase
 
-<p align = "center">
-<img src="files/tilt_pivot_illustration.png" width="1000"> 
-</p>
+<!--p align = "center"-->
+<!--img src="files/tilt_pivot_illustration.png" width="1000"--> 
+<!--/p-->
 
 ## Maintenance 
 For any technical issues, please contact: Zhekai Tong (ztong@connect.ust.hk), Tierui He (theae@connect.ust.hk), Qianyi Xu (qxuaj@connect.ust.hk) and Yu Hin Ng (yhngad@connect.ust.hk).
